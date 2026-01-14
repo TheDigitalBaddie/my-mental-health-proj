@@ -16,3 +16,16 @@ body {
     background-color: #f7f7f7; 
     padding: 60px 0; 
 }
+
+
+#symptoms {
+    background-color: #ffffff;
+}
+
+#symptoms .shadow-sm {
+    transition: transform 0.2s ease;
+}
+
+#symptoms .shadow-sm:hover {
+    transform: translateY(-5px);
+}
