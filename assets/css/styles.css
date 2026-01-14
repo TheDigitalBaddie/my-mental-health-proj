@@ -75,3 +75,16 @@ body , section {
         -1px  1px 0 #000,
          1px  1px 0 #000;
 }
+
+#tips {
+    color: white;
+}
+
+.section-divider {
+    height: 4px; 
+    background-color: #e0f7f7; 
+    width: 100%;
+    margin: 40px 0; 
+    border-radius: 2px; 
+}
+
