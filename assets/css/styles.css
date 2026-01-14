@@ -1,16 +1,26 @@
 
-body {
-    padding-top: 110px;
+body , section {
+    padding-top: 120px;
+    background-color: #102929
+
 }
 
-#hero { height: 70vh; 
-        background: linear-gradient( 
-            rgba(0, 0, 0, 0.3), 
-            rgba(0, 0, 0, 0.3) ),
+#hero {
+    background-image: url("assets/images/hero-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
-            url('../images/hero-bg.jpg') center/cover no-repeat; 
-            color: white; 
-            padding: 40px;}
+
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 120px 0; 
+}
+
+            
 
 #about { 
     background-color: #f7f7f7; 
@@ -36,10 +46,32 @@ body {
 }
 
 #support .btn-primary {
-    background-color: #4a90e2;
+    background-color:  #102925;
     border: none;
 }
 
 #support .btn-primary:hover {
-    background-color: #3a78c2;
+    background-color: #102925;
+}
+
+
+#hero {
+    background-image: url("../images/hero-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.4); 
+    padding: 120px 0; /
+}
+
+#hero h1 {
+    text-shadow: 
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
 }
