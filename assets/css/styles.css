@@ -44,16 +44,3 @@ body {
     background-color: #3a78c2;
 }
 
-/* SUPPORT SECTION */
-#support {
-    background-color: #f7f7f7;
-}
-
-#support .btn-primary {
-    background-color: #4a90e2;
-    border: none;
-}
-
-#support .btn-primary:hover {
-    background-color: #3a78c2;
-}
